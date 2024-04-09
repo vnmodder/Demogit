@@ -17,6 +17,7 @@ namespace Demo3Layer.DAL
             return result > 0;
         }
 
+        // jhjkhkhkhkj
         public bool DeleteClass(int id)
         {
             var query = $"DELETE [CLASS] WHERE Id = {id}";
